@@ -6,6 +6,6 @@ read b
 echo "Enter 3rd Number :"
 read c
 
-sum=$(( $c * $a / $b ))
+sum=$(( $a % $b + $c ))
 
 echo "Result : $sum"
